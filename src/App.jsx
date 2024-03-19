@@ -9,8 +9,8 @@ const App = () => {
     <Fragment>
       <main className="main">
         <Routes>
-          <Route path="/Market" index element={<Home />} />
-          <Route path="/Market/product/:id" element={<Product />} />
+          <Route path="/Market--main" index element={<Home />} />
+          <Route path="/Market--main/product/:id" element={<Product />} />
           <Route path="*" element={<h2 className="title-2">404</h2>} />
         </Routes>
       </main>
